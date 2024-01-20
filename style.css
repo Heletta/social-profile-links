@@ -1,0 +1,69 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 40px 10px;
+  margin: 80px 550px;
+  border-radius: 10px;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-img {
+  border-radius: 50%;
+  width: 100px;
+}
+.card-info {
+  color: white;
+  line-height: 1;
+}
+.card-name,
+.card-loc,
+.card-descrip {
+  text-align: center;
+}
+.card-name {
+  font-size: 24px;
+}
+
+.card-descrip {
+  font-size: 14px;
+}
+.card-loc {
+  color: hsl(75, 94%, 57%);
+  font-size: 12px;
+}
+.card-social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+.social-link {
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 60px;
+  text-align: center;
+  width: 250px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+
+  transition: 200ms ease-in-out;
+}
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
